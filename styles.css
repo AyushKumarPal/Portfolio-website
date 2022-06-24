@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: rgb(42, 42, 42);
+}
+
+p{
+    line-height: 2;
+
+}
+
+ /* 16px = 100% = 1em 
+    rem doesn't inherit size from body or any other element. */
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+    line-height: 1;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+/* 
+div {
+    background-color: #e0efef;
+} */
+
+hr{
+    border: dotted 6px #eaf6f6 ;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #e4f9e4;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding: 100px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sport-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+/* .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+} */
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #43b2cd;
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border-width:2px;
+    color: white;
+}
+
+.btn:hover{
+    background: #52dce6;
+    text-decoration: none;
+}
+                
